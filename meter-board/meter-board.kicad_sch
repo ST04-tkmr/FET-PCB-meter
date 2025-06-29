@@ -2,8 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4)
+	(uuid "968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4")
 	(paper "A4")
+	(title_block
+		(title "FET-PCB-meter")
+		(rev "v1.0")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
