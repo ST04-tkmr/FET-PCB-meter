@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a03dec27-73d6-42de-a18b-12c531b32845")
+	(paper "A4")
+	(title_block
+		(title "FET-PCB-meter")
+		(rev "v1.0")
+	)
+	(lib_symbols)
+)
