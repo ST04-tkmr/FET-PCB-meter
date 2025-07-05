@@ -760,6 +760,237 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "my_Diode:BAS70-04-E3-08"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAS70-04-E3-08"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "my_Diode:BAS70-04-E3-08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigikeyPN" "BAS70-04-E3-08CT-ND"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAS70-04-E3-08_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 1.016 2.54) (xy -1.016 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 0 2.54) (xy -1.016 1.016) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.016 -1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.54) (xy 0 -1.016) (xy -1.016 -2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.905 -2.54) (xy 1.905 -3.81) (xy 0 -3.81) (xy 0 3.81) (xy 1.905 3.81) (xy 1.905 2.54)
+						(xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAS70-04-E3-08_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "my_Diode:MM3Z12VST1G"
 			(pin_numbers
 				(hide yes)
@@ -11012,6 +11243,85 @@
 		)
 	)
 	(symbol
+		(lib_id "my_Diode:BAS70-04-E3-08")
+		(at 105.41 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d1e1b8-00a4-4014-a9f1-a29a354d57d7")
+		(property "Reference" "D43"
+			(at 105.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS70-04-E3-08"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_Diode:BAS70-04-E3-08"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigikeyPN" "BAS70-04-E3-08CT-ND"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17cb2ee9-3bb4-4ef9-86bf-9c1c8746fe84")
+		)
+		(pin "2"
+			(uuid "90556f6d-dff8-40cb-8855-e8a853fb6c70")
+		)
+		(pin "1"
+			(uuid "6d8ee14e-205f-4151-b548-123a7bad46cf")
+		)
+		(instances
+			(project "meter-board"
+				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "my_Resistor:R_0402_1005M")
 		(at 63.5 215.9 90)
 		(unit 1)
@@ -12225,6 +12535,85 @@
 			(project "meter-board"
 				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_Diode:BAS70-04-E3-08")
+		(at 124.46 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28d78980-586e-4865-b6ac-459baa1d845c")
+		(property "Reference" "D44"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS70-04-E3-08"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_Diode:BAS70-04-E3-08"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigikeyPN" "BAS70-04-E3-08CT-ND"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10a36dba-577d-4555-a40a-7bd9624ca342")
+		)
+		(pin "2"
+			(uuid "41526eb5-96e7-4fd9-b848-b4f6bb3cd400")
+		)
+		(pin "1"
+			(uuid "e16ee85e-2005-4859-8bec-52eef769ba53")
+		)
+		(instances
+			(project "meter-board"
+				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -15052,6 +15441,85 @@
 			(project "meter-board"
 				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_Diode:BAS70-04-E3-08")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5e1925-de58-4845-96a3-c26b50041bff")
+		(property "Reference" "D42"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS70-04-E3-08"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_Diode:BAS70-04-E3-08"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigikeyPN" "BAS70-04-E3-08CT-ND"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b61c8078-9109-45cf-abe5-9afd3d4e8740")
+		)
+		(pin "2"
+			(uuid "fc041575-1b84-454d-94ab-dc79d6d09a0c")
+		)
+		(pin "1"
+			(uuid "592fdcf9-6242-433a-9ea3-80a25a895512")
+		)
+		(instances
+			(project "meter-board"
+				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -20840,6 +21308,85 @@
 			(project "meter-board"
 				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_Diode:BAS70-04-E3-08")
+		(at 68.58 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78fb8c4-60df-4a01-ac8c-2cb00d2972f0")
+		(property "Reference" "D41"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS70-04-E3-08"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_Diode:BAS70-04-E3-08"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigikeyPN" "BAS70-04-E3-08CT-ND"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c1de1680-c13b-454b-bb4f-e01e1fb7f093")
+		)
+		(pin "2"
+			(uuid "2f2dee8b-555a-45a0-855f-f7d24f676b31")
+		)
+		(pin "1"
+			(uuid "6d4d42b1-6a5c-4dcf-9470-678a01cbf025")
+		)
+		(instances
+			(project ""
+				(path "/968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4"
+					(reference "D41")
 					(unit 1)
 				)
 			)
