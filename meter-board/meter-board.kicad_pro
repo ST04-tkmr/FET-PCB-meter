@@ -612,6 +612,14 @@
     [
       "968e8a7b-5ca9-4f06-9bb4-2536f4d1b0b4",
       "Root"
+    ],
+    [
+      "44b59bd7-12a7-413b-9acc-94ed594bcfad",
+      "led-meter-driver"
+    ],
+    [
+      "21e465e9-c3d1-4f7e-ad97-1ffa72886269",
+      "7seg-and-led-driver"
     ]
   ],
   "text_variables": {}
