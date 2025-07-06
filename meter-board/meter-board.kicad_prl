@@ -57,11 +57,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "fr4_2layer_1oz_0.8mm.kicad_prl",
+    "filename": "meter-board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
       false,
       false,
       false,
@@ -83,7 +85,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       162,
@@ -94,6 +98,8 @@
       89,
       89,
       53,
+      89,
+      89,
       89,
       89
     ],
