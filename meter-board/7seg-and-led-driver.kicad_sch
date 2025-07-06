@@ -7804,6 +7804,17 @@
 		)
 		(uuid "8b9f52af-af79-49ac-ad2d-44e51221a2ac")
 	)
+	(hierarchical_label "R1_R1"
+		(shape output)
+		(at 391.16 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cbc7849-7b22-498c-b872-0b0b13854c53")
+	)
 	(hierarchical_label "RGB_R"
 		(shape output)
 		(at 391.16 134.62 0)
@@ -7814,17 +7825,6 @@
 			(justify left)
 		)
 		(uuid "9252a722-486b-493a-b0a8-ffbf8d31eed7")
-	)
-	(hierarchical_label "W5_W5"
-		(shape output)
-		(at 391.16 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9630eadd-1977-4158-8a31-523ea2503103")
 	)
 	(hierarchical_label "7seg_CC4"
 		(shape output)
