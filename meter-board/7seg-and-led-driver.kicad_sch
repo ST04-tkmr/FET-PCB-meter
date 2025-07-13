@@ -7705,7 +7705,7 @@
 		)
 		(uuid "2e7ef4fc-93ea-4bf1-bec2-423c8a8fe2a6")
 	)
-	(hierarchical_label "W5_W1"
+	(hierarchical_label "W4_W1"
 		(shape output)
 		(at 391.16 147.32 0)
 		(effects
@@ -7727,7 +7727,7 @@
 		)
 		(uuid "42ad699f-92ad-4c4c-ad4a-81dc55b618b0")
 	)
-	(hierarchical_label "W5_W4"
+	(hierarchical_label "W4_W4"
 		(shape output)
 		(at 391.16 139.7 0)
 		(effects
@@ -7848,7 +7848,7 @@
 		)
 		(uuid "a908377b-2360-45c0-a8b5-3b39033c8316")
 	)
-	(hierarchical_label "W5_W2"
+	(hierarchical_label "W4_W2"
 		(shape output)
 		(at 391.16 144.78 0)
 		(effects
@@ -7881,7 +7881,7 @@
 		)
 		(uuid "b4984369-482b-44d7-a715-4d3c76e77a44")
 	)
-	(hierarchical_label "W5_W3"
+	(hierarchical_label "W4_W3"
 		(shape output)
 		(at 391.16 142.24 0)
 		(effects
